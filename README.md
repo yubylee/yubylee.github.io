@@ -1,5 +1,5 @@
 # Welcome to GunHyoung Github blog
 
-Introduce Myself
-<img src = "lookingfor.jpg" width = "100">
+Introduce Myself<br>
+<img src = "lck.jpg" width = "100%">
 
