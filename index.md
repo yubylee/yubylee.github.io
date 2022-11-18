@@ -19,6 +19,6 @@ Hello. Welcome to my blog. This blog was created to manage my [bitcamp](https://
 - email : yuby1003@naver.com
 - 소속 : 네이버 클라우드 1기
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcareerattraction.com%2Fhow-to-look-for-a-job-without-saying-so%2F&psig=AOvVaw1qQSGOV0zInkx22eZkIF9x&ust=1668870228828000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKDC7pyAuPsCFQAAAAAdAAAAABAE" width="100%">
+<img src="lck.jpg" width="100%">
 
 
