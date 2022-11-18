@@ -18,4 +18,4 @@ email : yuby1003@naver.com<strong><br>
  - 백엔드 프로그래밍<br>
  - 인공지능 기초<br>
  - AIaas<br>
- - 최종 통합 프로젝트<br></strong>
+ - 최종 통합 프로젝트</strong><br>
