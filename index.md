@@ -19,5 +19,5 @@ Hello. Welcome to my blog. This blog was created to manage my [bitcamp](https://
 - email : yuby1003@naver.com
 - 소속 : 네이버 클라우드 1기
 
-<img src = "looking.jpg" width = "100%">
+<img src="looking.jpg" width="100%">
 
