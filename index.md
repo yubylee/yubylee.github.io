@@ -1,5 +1,5 @@
 ---
-title: Introduce me
+title: Welcome to my blog
 feature_text: |
   ## LeeG.H.
   이건형 블로그에 오신 것을 환영합니다.
