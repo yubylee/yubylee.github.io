@@ -8,7 +8,8 @@
 취미 : 독서, 영화 시청<br>
 email : yuby1003@naver.com<strong><br>
 <h3>bitcamp</h3><br>
-<strong> - 네이버 클라우드 플랫폼<br>
+<strong> 
+ - 네이버 클라우드 플랫폼<br>
  - 클라우드 OS<br>
  - 웹 프로그램밍 기초<br>
  - 자바스크립트<br>
