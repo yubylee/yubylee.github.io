@@ -9,6 +9,14 @@ excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projec
 
 "Hello. Welcome to my blog. This blog is operated to upload [bitcamp](https://www.bitcamp.co.kr/) assignments or organize class contents. Well, I have to go now."
 
+<h1>Introduce me</h1><br>
+ - 이름 : 이건형<br>
+ - 영문 : LeeGunhyoung<br>
+ - 지역 : 경기 광명<bt>
+ - email : yuby1003@naver.com<br>
+ - 소속 : bitcamp [네이버 클라우드](https://www.ncloud.com/)<br>
+ - 취미 : 독서, 영화시청
+
 <img src="lck.jpg" width="100%">
 
 {% include button.html text="Fork it" icon="github" link="https://github.com/daviddarnes/alembic" color="#0366d6" %} {% include button.html text="Buy me a coffee ☕️" link="https://buymeacoffee.com/daviddarnes#support" color="#f68140" %} {% include button.html text="Tweet it" icon="twitter" link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" color="#0d94e7" %} {% include button.html text="Install Alembic ⚗️" link="https://github.com/daviddarnes/alembic#installation" %}
