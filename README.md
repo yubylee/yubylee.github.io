@@ -1,22 +1,21 @@
-# Welcome to GunHyoung Github blog
+Jekyll Themes
+=============
 
-<h1><u>이건형  Lee GunHyoung</u></h1><br>
-<img src = "lck.jpg" width = "100%"><br>
-<h2>Introduce Myself</h2><br>
-<strong>생년월일 : 1993. 12. 13<br>
-주소 : Gwangmyoung<br>
-취미 : 독서, 영화 시청<br>
-email : yuby1003@naver.com<strong><br>
-<h3>bitcamp</h3><br>
-<strong> 
- - 네이버 클라우드 플랫폼<br>
- - 클라우드 OS<br>
- - 웹 프로그램밍 기초<br>
- - 자바스크립트<br>
- - 웹 프로그래밍 심화(React)<br>
- - 모바일 프로그래밍(React Native)<br>
- - 컨테이너 인프라 환경 구축<br>
- - 백엔드 프로그래밍<br>
- - 인공지능 기초<br>
- - AIaas<br>
- - 최종 통합 프로젝트</strong><br>
+A directory of the best-looking themes for Jekyll blogs
+
+
+Submitting a Theme
+------------------
+
+Have a theme you want to share?
+
+* Fork the site on GitHub
+* Create a new post in the `_posts` directory and fill out the relevant YAML fields
+* Make a 250x200 thumbnail and drop it in the thumbnails directory. List its filename in the post's markdown file.
+* Test it out, then push your changes up and open a pull request.
+
+
+License
+-------
+
+The contents of this repository are licensed under the [GNU Public License.](http://www.gnu.org/licenses/gpl-3.0.html)
