@@ -1,35 +1,28 @@
-###########
-# site.title
+title: Jekyll Vision Casper Theme
+email: hugo.colombo23@gmail.com
+author:
+  picture: http://site.hugocarreira.me/assets/img/compressed/hugo.jpg #URL FORMAT
+  name: Hugo Carreira
+  location: Rio de Janeiro - Brazil
+  description: "19 years old, studying computer science"  
+description: only my simple vision of casper theme
+baseurl: "/"
+url: https://hugocarreira.github.io/jekyll-vision-casper-theme
+twitter_username: hugocolombo23
+github_username:  hugocarreira
+github_url: https://hugocarreira.github.io/jekyll-vision-casper-theme/
 
-title: ET-Jekyll Theme
-description: A minimal Jekyll theme inspired by Tufte CSS
-url: "https://et-jekyll.netlify.app"
-host: 0.0.0.0
-
-
-#########################
-# more settings
-
-markdown: kramdown
-
-compress_html:
-  clippings: all
-  comments: [""]
-  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
-  profile: false
-  blanklines: false
-  ignore:
-    envs: []
-
-sass:
-  sass_dir: css
-  style:    compressed
-
-baseurl: ""
-permalink: pretty
-timezone: America/New_York
-future: false
-
+# Build settings
+permalink: :title
+paginate: 1
+paginate_path: "page:num"
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+gems:
+  - jekyll-feed
+  - jekyll-paginate
 exclude:
-- README.md
-- LICENSE.md
+  - Gemfile
+  - Gemfile.lock

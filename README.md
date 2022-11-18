@@ -1,5 +1,12 @@
-# ET-Jekyll
-A minimal Jekyll theme inspired by <a href="https://github.com/edwardtufte/tufte-css">Tufte CSS</a>
+# jekyll-vision-casper-theme
+:construction: work in progress - only my simple vision of casper theme adapted to jekyl  
 
-### Live Demo
-A live demo with detailed instructions can be found <a href="https://et-jekyll.netlify.com/et-jekyll-theme/">here</a>.
+## TODO
+- [ ] - Logo
+- [ ] - Navbar
+- [ ] - Menu
+
+## Preview:
+![alt tag](screencapture-hugocarreira-github-io-jekyll-vision-casper-theme-1480141015947.png)
+
+[DEMO](https://hugocarreira.github.io/jekyll-vision-casper-theme)
