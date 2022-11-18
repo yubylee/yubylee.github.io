@@ -67,13 +67,7 @@ collections:
     output: true
     description: ## Personal information
 
-- 이름 : 이건형
-- 영문 : Lee GunHyoung
-- 생년월일 : 1993. 12. 13
-- 주소 : 경기 광명
-- 취미 : 독서, 영화시청
-- email : yuby1003@naver.com
-- 소속 : 네이버 클라우드 1기 # The post list page content
+di # The post list page content
     feature_text: |
       Welcome to the Profile
     feature_image: "https://picsum.photos/2560/600?image=866"
