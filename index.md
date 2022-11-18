@@ -9,7 +9,7 @@ excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projec
 
 "Hello. Welcome to my blog. This blog is operated to upload [bitcamp](https://www.bitcamp.co.kr/) assignments or organize class contents. Well, I have to go now."
 
-<h1>Introduce me</h1><br>
+<h1>Introduce me</h1>
  - 이름 : 이건형<br>
  - 영문 : LeeGunhyoung<br>
  - 지역 : 경기 광명<bt>
