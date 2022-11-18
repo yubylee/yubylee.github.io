@@ -1,12 +1,3 @@
-# Welcome to LeeG.H.
-:construction: work in progress - only my simple vision of casper theme adapted to jekyl  
-
-## TODO
-- [ ] - Logo
-- [ ] - Navbar
-- [ ] - Menu
-
-## Preview:
-![alt tag](screencapture-hugocarreira-github-io-jekyll-vision-casper-theme-1480141015947.png)
-
-[DEMO](https://hugocarreira.github.io/jekyll-vision-casper-theme)
+아룡ㅎ하세요 
+이건형에 대하여
+안녕하세요!2

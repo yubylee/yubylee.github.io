@@ -1,41 +1,58 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<html lang="{{ site.lang | default: "en-US" }}">
 
-  <title>{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}" />
+  <head>
+    <!-- General meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% if page.indexing == false %}
+      <meta name="robots" content="noindex">
+    {% endif %}
 
-  {% if site.favicon %}
-  <link rel="shortcut icon" href="{{ site.github_url }}/favicon.ico">
-  {% endif %}
+    {% if page.collectionpage %}
+      {% seo title=false %}
 
-  <link rel="stylesheet" type="text/css" href="{{ site.github_url }}assets/css/screen.css" />
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
-</head>
-<body class="home-template nav-closed">
+      {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+      <title>{{ collectiondata.title }} - {{ site.title }}</title>
+      <meta property="og:title" content="{{ collectiondata.title }}">
+      <meta name="description" content="{{ collectiondata.description }}">
+      <meta property="og:description" content="{{ collectiondata.description }}">
+    {% else %}
+      {% seo %}
+    {% endif %}
+    {% if site.fonts.preconnect_urls %}
+      {% for url in site.fonts.preconnect_urls %}
+        <link rel="preconnect" href="{{ url }}" crossorigin />
+      {% endfor %}
+    {% endif %}
 
-  {% include menu.html %}
-  <div class="site-wrapper">
-    {% include header.html %}
-    <main id="content" class="content" role="main">
+    <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
+    <meta name="theme-color" content="{{ site.manifest.theme_color | default: '#242e2b' }}"/>
+
+    {% if site.css_inline == true %}
+      {% include site-styles.html %}
+    {% else %}
+      <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+    {% endif %}
+
+    {% if site.favicons or site.avatarurl %}{% include site-favicons.html %}{% endif %}
+
+    {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
+
+    {% include site-fonts.html %}
+
+    {% include site-before-start.html %}
+  </head>
+
+  <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
+    {% include site-icons.svg %}
+
     {{ content }}
-    </div>
-  </div>
-  {% include footer.html %}
 
+    {% if site.service_worker != false %}{% include site-sw.html %}{% endif %}
 
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-  <!-- You can safely delete this line if your theme does not require jQuery -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src="{{ site.github_url }}assets/js/jquery.fitvids.js?v=b60459228a"></script>
-  <script type="text/javascript" src="{{ site.github_url }}assets/js/index.js?v=b60459228a"></script>
-  
-  {% include analytics.html %}
+    {% include site-before-end.html %}
+  </body>
 
-</body>
 </html>
