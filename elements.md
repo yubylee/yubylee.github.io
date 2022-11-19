@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: <u>Projects</u>
 feature_text: |
   Bitcamp Naver Cloud 1기 Projects
 feature_image: "https://picsum.photos/2560/600?image=873"
@@ -7,11 +7,11 @@ excerpt: "A demo of Markdown and HTML includes"
 aside: true
 ---
 
-# Heading 1
+# Project 1
 
-## Heading 2
+# Project 2
 
-### Heading 3
+# Project 3
 
 #### Heading 4
 
