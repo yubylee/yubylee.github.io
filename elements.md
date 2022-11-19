@@ -8,7 +8,7 @@ aside: true
 ---
 
 ## Project 1
- - github 블로그 꾸미기<br>
+ - <a href="http://naver.com">github 블로그 꾸미기<br>
    <small>2022.11.16</small>
 ## Project 2
  - 하이퍼바이저 조사하기<br>
