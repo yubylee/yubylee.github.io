@@ -7,20 +7,15 @@ excerpt: "A demo of Markdown and HTML includes"
 aside: true
 ---
 
-# Project 1
-
-# Project 2
-
-# Project 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-<small>A small element</small>
-
+## Project 1
+ - github 블로그 꾸미기
+   <small>2022.11.16</small>
+## Project 2
+ - 하이퍼바이저 조사하기
+   <small>2022.11.17</small>
+## Project 3
+ - VM생성 및 git 개인홈페이지 변경하기
+   <small>2022.11.18</small>
 [A link](https://david.darn.es "A link")
 
 Lorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
