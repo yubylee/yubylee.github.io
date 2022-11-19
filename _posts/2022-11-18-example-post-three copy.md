@@ -1,5 +1,5 @@
 ---
-title: Project 1
+title: Project 3
 excerpt: |
 feature_text: |
   # bitcamp naver cloud 1
@@ -7,27 +7,67 @@ feature_image: "https://picsum.photos/2560/600?image=733"
 image: "https://picsum.photos/2560/600?image=733"
 ---
 
-MD확장자
+## 과제3 
 
-.MD 또는 .MARKDOWN 파일 확장자를 가진 파일은 Markdown 문서 파일 일 수 있습니다. Markdown 언어를 사용하여 텍스트 문서를 HTML로 변환하는 방법을 설명하는 일반 텍스트 파일입니다.
+mkdir centos3
 
-MarkDown 장점
-- 문법이 쉽다.
-- 관리가 쉽다
-- 지원 가능한 플랫폼과 프로그램이 다양하다
+cd centos3
 
-MarkDown 단점
-- 표준이 없어 사용자마다 문법이 상이할 수 있다
-- 모든 HTML 마크업을 대신하지 못한다.
+vagrant init
 
+→ 파일 만들어진곳가서 ex) vscode centos5 들어가서
 
-README
+[config.vm.box](http://config.vm.box) = “centos/7” -> base? box? 대신에 centos/7 기입
 
- - Github에 프로젝트를 올릴 때, 프로젝트에 대한 설명 뿐 아니라 사용 방법, LICENSE 등의 내용을 기술하는 파일이다.
+다른방법으로는 vagrant init centos/7           cmd에입력
 
- - 작성 이유 : 
-어떤 프로그램을 사용하거나 오픈소스를 참고하기 위해 Github Repository에 들어간다면, 가장 먼저 확인하는 것이 README 파일이다.
-다른 사용자들이 내 오픈소스 프로젝트에 대한 정보를 얻기 위해,
-해당 프로젝트에 대해 함께 협업 하는 동료에게 정보를 주기 위해,
-나중에 다시 내가 프로젝트를 다시 열었을 때 떠올리기 용이하기 위해
-README를 잘 작성해 둘 필요가 있다.
+config.vm.hostname = “myhost1.bitcamp”
+
+vagrant up
+
+vagrant ssh
+
+hostname
+
+-------------------------------------------
+sudo yum install git
+
+git --version
+
+pwd
+
+cd git
+
+git clone https://github.com/yubylee.github.io       <- 자기 주소입력
+
+sudo yum install nano
+
+cd yubylee.github.io/
+
+nano README.md                            <- 창뜨는데 이건형에 대하여 안녕하세요 이런식으로입력
+내용입력 -> 컨트롤 o -> enter -> 컨트롤 x
+git config --global user.email "yuby1003@naver.com"
+git config --global user.name "LeeGunhyoung"
+
+git add .
+git commit -m "opera"
+git push
+
+네임 , 비번 입력
+
+자기 깃허브 들어가서 리버지토리 들어가서 io들어가서 만들어진거 확인하면 끝
+
+삭제방법
+
+vagrant halt
+
+vagrant destroy
+
+cd ..
+
+dir
+
+rmdir /s centos5
+y
+
+dir
