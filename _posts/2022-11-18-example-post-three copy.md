@@ -7,7 +7,34 @@ feature_image: "https://picsum.photos/2560/600?image=733"
 image: "https://picsum.photos/2560/600?image=733"
 ---
 
-## 과제3 
+## <span style="color:gray">_과제3 vm 생성 및 git 개인페이지 변경하기_</span>
+
+
+ centos 5 생성
+
+    -  project directory 생성
+
+    - vegrantfile 준비
+
+    - VM을 실행
+
+ CENTOS5 VM 접속
+
+    - vm ssh 접속
+
+ git개인홈페이지 변경 
+
+    1) yum git 설치
+
+    2) nano 설치
+
+    3) git config 의 email 과 name 설정
+
+    4) git 개인페이지 저장소 복제
+
+    5) [READ.ME](http://READ.ME) 편집
+
+    6) git commit & push
 
 mkdir centos3
 
@@ -56,6 +83,8 @@ git push
 네임 , 비번 입력
 
 자기 깃허브 들어가서 리버지토리 들어가서 io들어가서 만들어진거 확인하면 끝
+
+-------------------------------------------
 
 삭제방법
 

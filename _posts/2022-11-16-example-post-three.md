@@ -6,22 +6,30 @@ feature_text: |
 feature_image: "https://picsum.photos/2560/600?image=733"
 image: "https://picsum.photos/2560/600?image=733"
 ---
+# <span style="color:gray">_MD 조사하기_</span><br><br>
 
-MD확장자
+
+
+#### MD확장자
+
 
 .MD 또는 .MARKDOWN 파일 확장자를 가진 파일은 Markdown 문서 파일 일 수 있습니다. Markdown 언어를 사용하여 텍스트 문서를 HTML로 변환하는 방법을 설명하는 일반 텍스트 파일입니다.
 
-MarkDown 장점
+#### MarkDown 장점
+
+
 - 문법이 쉽다.
 - 관리가 쉽다
 - 지원 가능한 플랫폼과 프로그램이 다양하다
 
-MarkDown 단점
+#### MarkDown 단점
+
+
 - 표준이 없어 사용자마다 문법이 상이할 수 있다
 - 모든 HTML 마크업을 대신하지 못한다.
 
+#### README
 
-README
 
  - Github에 프로젝트를 올릴 때, 프로젝트에 대한 설명 뿐 아니라 사용 방법, LICENSE 등의 내용을 기술하는 파일이다.
 
