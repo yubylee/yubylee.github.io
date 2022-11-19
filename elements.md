@@ -8,15 +8,14 @@ aside: true
 ---
 
 ## Project 1
- - github 블로그 꾸미기
+ - github 블로그 꾸미기<br>
    <small>2022.11.16</small>
 ## Project 2
- - 하이퍼바이저 조사하기
+ - 하이퍼바이저 조사하기<br>
    <small>2022.11.17</small>
 ## Project 3
- - VM생성 및 git 개인홈페이지 변경하기
+ - VM생성 및 git 개인홈페이지 변경하기<br>
    <small>2022.11.18</small>
-[A link](https://david.darn.es "A link")
 
 Lorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
 
