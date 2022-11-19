@@ -135,7 +135,7 @@ navigation_header:
   url: https://github.com/daviddarnes/alembic
 
 navigation_footer:
-- title: Created by LeeGunhyoung
+- title: Created by  LeeGunhyoung
   url: https://github.com/yubylee
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
