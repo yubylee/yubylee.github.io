@@ -123,3 +123,7 @@ git clone https://github.com/git/git.git .
 
 git push : 원격저장소로 푸쉬한다.  
 git pull : 원격저장소의 내용을 로컬저장소르 내려받는다.
+
+
+
+gitgitgitgit
