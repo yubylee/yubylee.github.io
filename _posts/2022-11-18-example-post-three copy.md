@@ -122,4 +122,4 @@ git clone https://github.com/git/git.git .
 : url의 git 프로젝트를 현재 디렉토리(.)에 clone 한다.  
 
 git push : 원격저장소로 푸쉬한다.  
-git pull : 원격저장소의 내용을 로컬저장소르 내려받는다.  
+git pull : 원격저장소의 내용을 로컬저장소르 내려받는다.
