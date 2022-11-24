@@ -7,7 +7,7 @@ feature_image: "https://picsum.photos/2560/600?image=733"
 image: "https://picsum.photos/2560/600?image=733"
 ---
 
-## <span style="color:gray">_웹 기술의 등장 과정을 조사하여 설명하시오._</span>
+## <span style="color:gray">_시맨틱 태그의 목적과 주요 시맨틱 태그의 용도를 기술하시오._</span>
 
 
 과제 목표  

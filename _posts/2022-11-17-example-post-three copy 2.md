@@ -1,5 +1,5 @@
 ---
-title: Project 2
+title: Project 2(하이퍼바이저)
 excerpt: |
 feature_text: |
   # bitcamp naver cloud 1
